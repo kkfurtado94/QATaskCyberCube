@@ -2,6 +2,8 @@
 Here's the QA task. Unfortunately, I didn't have time do it on its entirety since it's a long task and as I'm on holidays, traveling back and forth. I tried to make it useful and simple.
 There is some rough edges around reports and stuff, I know. Again, I didn't have proper time and place to address everything.
 
+PDF with the Test Plan in the repo.
+
 This project is using: Java 17, JUnit 5, Cucumber 7, RestAssured, Selenide (amazing API built on top of Selenium, which has improved selectors, other features that Selenium has, like built-in waits and an embedded WebDriver: https://selenide.org/documentation.html). I also use Allure Reports for reporting.
 
 ## Instructions
