@@ -1,7 +1,7 @@
 @api
 Feature: Pet Store simple CRUD
 
-  Scenario Outline: Validating the 4 APIs (I understand this is not the single point of failure strategy, I just didn't have time)
+  Scenario Outline: Validating the 4 endpoints on Pet API (I understand this is not the single point of failure strategy, I just didn't have time)
     When user searches for pets by "<status>"
     And user creates a new pet with status as "<creation_status>"
     Then check for pet details
